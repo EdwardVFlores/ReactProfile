@@ -1,0 +1,13 @@
+.header-container-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.header-container {
+    
+    background-color: antiquewhite;
+}
+.header-text {
+    border: 1px solid black;
+    margin: 8px 0 0 0;
+}

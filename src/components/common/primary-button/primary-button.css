@@ -1,0 +1,15 @@
+.primary-button {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(180, 88, 255);
+    font-weight: bold;
+    color: white;
+}
+
+.primary-button:hover {
+    cursor: pointer;
+}
