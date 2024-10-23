@@ -4,6 +4,9 @@
 }
 .socials-container {
     background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .socials-title {
@@ -11,16 +14,8 @@
     margin: 8px 0 0 0 ;
 }
 
-.socials-container ul{
-    margin: 0;
-    padding: 0;
-}
-
-.socials-container ul li{
-    list-style: none;
-    text-align: start;
-}
-
-.socials-container ul li a{
-    text-decoration: none;
+.socials-button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
