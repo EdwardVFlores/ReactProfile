@@ -7,10 +7,9 @@ const Socials = () => {
     return (
         <div id="socials" className="socials-container-holder">
             <div className="socials-container">
-                <h2 className="socials-title">Socials</h2>
+                <h3 className="socials-title">Socials</h3>
                 <div className="socials-button-container">
-                    <PrimaryButton text="Linked In" link="https://www.linkedin.com/in/edward-flores-b27350178/"/>
-                    <PrimaryButton text="A really really long text" link="no idea"/>
+                    <PrimaryButton text="Linked In" link="https://www.linkedin.com/in/edward-flores-b27350178/" buttonClass="fab fa-linkedin"/>
                 </div>
             </div>
         </div>
